@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    	
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="Trangchu.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <body id="body">
+        <div id="header" >
+          <a href="">
+              <div style="float: left;">
+                <a href="Trang_Chu.html"><b style="color: #fff; font-size: 58px;padding-left:60px;text-shadow: 3px 3px 3px rgb(6, 6, 6), 4px 4px rgb(232, 231, 231);">JMS</b></a>
+                <a href="Trang_Chu.html"><b style="color: #fff; font-size: 20px;">shoes</b></a>
+              
+              </div>
+          </a>
+          <a href="GioHang.html">
+              <button id="cart">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                  Giỏ Hàng
+              </button>
+         </a>
+          <a href="">
+          <div id="dangnhap">
+              <img  src="pngegg.png" style="width: 35px;height: 35px;float: right;padding:8px 10px;">
+              <a href="dangnhap.html"><b style="float: right;padding-top: 16px;padding-left: 10px;">Đăng nhập</b></a>
+              
+          </div></a>
+          <div class="box">
+              <form class="sbox" action="/search" method="get">
+              <input class="stext" type="text" name="q" placeholder="Tìm kiếm giày...">
+              <a class="sbutton" type="submit" href="javascript:void(0);">
+              <i class="fa fa-search"></i>
+              </a>
+              </form>
+          </div>
+
+          <!-- GioHang -->
+          
+<div class="container"> 
+ <table id="cart" class="table table-hover table-condensed"> 
+  <thead> 
+   <tr> 
+    <th style="width:50%">Tên sản phẩm</th> 
+    <th style="width:10%">Giá</th> 
+    <th style="width:8%">Số lượng</th> 
+    <th style="width:22%" class="text-center">Thành tiền</th> 
+    <th style="width:10%"> </th> 
+   </tr> 
+  </thead> 
+  <tbody><tr> 
+   <td data-th="Product"> 
+    <div class="row"> 
+     <div class="col-sm-2 hidden-xs"><img src="jodan1.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+     </div> 
+     <div class="col-sm-10"> 
+      <h4 class="nomargin">Jodan 1</h4> 
+      <p>Mô tả của sản phẩm 1</p> 
+     </div> 
+    </div> 
+   </td> 
+   <td data-th="Price">200.000 đ</td> 
+   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+   </td> 
+   <td data-th="Subtotal" class="text-center">200.000 đ</td> 
+   <td class="actions" data-th="">
+    <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+    </button> 
+    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+    </button>
+   </td> 
+  </tr> 
+  <tr> 
+   <td data-th="Product"> 
+    <div class="row"> 
+     <div class="col-sm-2 hidden-xs"><img src="jodan2.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+     </div> 
+     <div class="col-sm-10"> 
+      <h4 class="nomargin">Sản phẩm 2</h4> 
+      <p>Mô tả của sản phẩm 2</p> 
+     </div> 
+    </div> 
+   </td> 
+   <td data-th="Price">300.000 đ</td> 
+   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+   </td> 
+   <td data-th="Subtotal" class="text-center">300.000 đ</td> 
+   <td class="actions" data-th="">
+    <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+    </button> 
+    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i>
+    </button>
+   </td> 
+  </tr> 
+  </tbody><tfoot> 
+   <tr class="visible-xs"> 
+    <td class="text-center"><strong>Tổng 200.000 đ</strong>
+    </td> 
+   </tr> 
+   <tr> 
+    <td><a href="Trang_Chu.html" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+    </td> 
+    <td colspan="2" class="hidden-xs"> </td> 
+    <td class="hidden-xs text-center"><strong>Tổng tiền 500.000 đ</strong>
+    </td> 
+    <td><a href="" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+    </td> 
+   </tr> 
+  </tfoot> 
+ </table>
+</div>
+<!-- Footer -->
+<div id="footer">
+    <p style="text-align: center;"><br><br>
+        <b style="font-size: 58px;padding-left:60px;text-shadow: 3px 3px 3px gray,3px 3px 3px black;">JMS</b>
+        <b style="font-size: 20px;">shoes</b>
+    </p><br><br>
+    <div style="margin: auto;width: 1100px;">
+        <div id="menu-footer">
+            <b style="font-size: 18px;">THÔNG TIN</b><br><br>
+            Khuyến mãi <br>
+            Về JMS <br>
+            Chính sách đại lý <br>
+            Tuyển dụng <br>
+            Liên hệ <br>
+            Blog giày dép da
+        </div>
+        <div id="menu-footer">
+            <b style="font-size: 18px;">HỖ TRỢ</b><br><br>
+            
+            Câu hỏi <br>
+            Chính sách đổi trả <br>
+            Chính sách bảo mật  <br>
+            Hướng dẫn mua hàng <br>
+            Hướng dẫn thanh toán
+        </div>
+        <div id="menu-footer">
+            <b style="font-size: 18px;">SẢN PHẨM</b><br><br>
+            
+            Giày da <br>
+            Dép kẹp <br>
+            Dép quai ngang <br>
+            Sandal <br>
+            Giày sneaker 
+        </div>
+        <div id="menu-footer-veJMS">
+            <b style="font-size: 18px;">VỀ JMS</b><br><br>
+            
+            Các sản phẩm giày dép JMS được làm từ da bò thật nguyên miếng 100%, 
+            chất liệu da mềm mại, dẻo dai, bền, đẹp, sang trọng và đẳng cấp <br><br>
+            
+            Showroom: 87 Phạm Hữu Lầu, P4, TP.Cao Lãnh, Đồng Tháp <br><br>
+            Phone: 0945.0505.48 - 0845.181.787 <br>
+            Email: jmsvietnam@gmail.com
+        </div>
+        <div style="clear: both;">
+            <br>
+            <b style="font-size: 18px;">GIÀY DÉP NAM, NỮ CAO CẤP JMS</b><br><br>
+
+            jms.vn là website bán lẻ thời trang cao cấp của thương hiệu JMS. 
+            Các sản phẩm JMS cung cấp bao gồm: Giày da, dép kẹp, dép quai ngang, 
+            sandal,...
+            JMS áp dụng chế độ bảo hành 01 năm cho sản phẩm, 
+            dịch vụ giao hàng COD miễn phí toàn quốc cùng nhiều chương trình ưu đãi 
+            hấp dẫn được liên tục cập nhật trên website.
+        </div>
+    </div>
+</div>
+  
+</body>
+</html>

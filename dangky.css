@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(tranganh.jpg)
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 500px;
+}
+form{
+    
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    position: relative;
+}
+form .title{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+form input{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px soild #7041ff;
+    border-left:  2px solid #7041ff;
+}
+form .login{
+    width: 400px;
+    height: 50px;
+    margin: 0px auto;
+    display: block;
+    outline: none;
+    border: none;
+    background: #7041ff;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+form .login:hover{
+    background: #5324dd;
+}
+.google{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(226, 32, 32);
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fb{
+    height:30px;
+    width: 150px;
+    background-color: rgb(0, 4, 255);
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.gmail{
+    height:30px;
+    width: 150px;
+    background-color: green;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.mid{
+    text-align: center;
+}
+.color{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}
+.google i{
+    margin-right: 5px;
+}
+.google a{
+    text-decoration: none;
+    color:white ;
+}
+.fb i{
+    margin-right: 5px;
+}
+.fb a{
+    text-decoration: none;
+    color:white ;
+}
+.gmail i{
+    margin-right: 5px;
+}
+.gmail a{
+    text-decoration: none;
+    color:white ;
+}
